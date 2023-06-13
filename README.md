@@ -55,7 +55,7 @@ Notre code source contient plusieurs fonctions :
 
 ## A propos de la vidéo
 
-Nous avons effectué quelques modifications sur le code du projet après la publication de la vidéo (Youtube) :
+Nous avons effectué quelques modifications sur le code du projet après la publication de la vidéo :
 
 - On a rajouté la fonctionnalité de filtrage selon le protocole.
 

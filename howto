@@ -1,0 +1,27 @@
+================ HOW TO ====================
+
+Comment installer et lancer notre programme :
+
+[Version de Python à avoir : 3 ou supérieure]
+
+Librairies à avoir avant de pouvoir lancer ce projet :
+- TKinter (commande : pip install tk / pip install tkinter)
+- Pandas.numpy (commande : pip install pandas)
+- Matplotlib (commande : pip install Matplotlib)
+
+============================================
+
+Etape 1 :
+Pour lancer l'execution, taper la commande suivante dans le terminal : make all.
+Dans le cas d'une erreur avec le Makefile, nous pouvons tout simplement
+- installer manuellement les librairies nécessaires, à partir du terminal.
+- puis taper la commande : python3 graph2.py, python graph2.py ou py graph2.py en fonction de la version de python que vous possédez..
+
+Etape 2 :
+Selectionner les trames (un fichier texte) à analyser, avec le bouton "Ouvrir un fichier" de la fenêtre de l'interface graphique.
+ATTENTION : Un format autre que .txt provoquera une erreur sur le terminal mais n'arretera pas l'éxecution. Réutiliser le bouton "Ouvrir le fichier source" en choisisant le bon format de fichier.
+L'execution génerera un fichier pdf représentant le flux sous forme de tableau qu'on peut retrouver dans le répertoire où se trouve graph2.py.
+
+Etape 3 :
+A l'issue de l'execution, saisir la commande (si le makefile fonctionne) : make clean
+Sinon, effectuer la commande au clavier Crtl+C sur le terminal.
